@@ -1,0 +1,3 @@
+SELECT * from employee order by levels desc limit 1
+select billing_country, count(billing_country) as total_invoice from invoice group by billing_country order by total_invoice desc limit 1
+select total from invoice order by total desc limit 3
